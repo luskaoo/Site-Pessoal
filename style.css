@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding-top: 1000px;
+    text-align: center;
+}
+.perfil{
+ border-radius: 25%;
+ width: 400px;
+ 
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#1d7dfa 0%,#07f5b5 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+     
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nome {
+    font-size: 50px;
+    font-family: cursive ;
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bio {
+    padding: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.linha {
+    height: 6px;
+    background-color: dimgrey;
+    margin: 8px auto;
+}
+.paralax-iner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu {
+    position: fixed; 
+    background: white;
+    width: 100%;    
+    margin-top: 0px;    
+    top: 0px;
+    z-index: 10;
+    cursor: pointer; 
+   
+    
+}
+.links {
+display: inline; 
+padding-left: 33px;
+padding-right: 25px;
+font-size: 30px;
+font-family: Kanit;
+
+}
+a {
+   text-decoration: none;
+}
+.links:hover {
+font-size: 35px;
+text-decoration: underline;
+}
+.escritos {
+    font-size: 30px;
+}
+#contato iframe {
+    width: 100%;
+}
